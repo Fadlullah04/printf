@@ -1,2 +1,2 @@
 # printf
-This repository iS for the printf project at ALX
+This repository is for the printf project at ALX
