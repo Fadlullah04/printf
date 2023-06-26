@@ -1,5 +1,5 @@
 # __AUTHORS__
 
-## https://github.com/Fadlullah04/
+## [Abdurrahman Muhammad Kabir](https://github.com/Fadlullah04/)
 
-## https://github.com/aytuns
+## [Adeseyoju Ayotunde Jeremiah](https://github.com/aytuns)
