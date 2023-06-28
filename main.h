@@ -5,7 +5,7 @@
 #include<string.h>
 #include<unistd.h>
 
-#define BUFFER_SIZE  1024
+#define BUFFSIZE  1024
 #define UNUSED(x) (void)(x)
 
 /*FLAGS*/
@@ -47,4 +47,21 @@ int handle_print(const char *fmt, int *i, va_list list, char buffer[], int flags
 
 int print_char(va_list types, char buffer[], int flags, int width, int precision, int size);
 
-int
+int print_string(va_list types, char buffer[], int flags, int width, int precision, int size);
+
+int print_percentage(va_list types, char buffer[], int flags, int width, int precision, int size);
+
+/*function to print numbers*/
+int print_int(va_list types, char buffer[], int flags, int width, int precision, int size);
+
+int print_bin(va_list types, char buffer[], int flags, int width, int precision, int size);
+
+int print_octal(va_list types, char buffer[], int flags, int width, int precision, int size);
+
+int print_hexadecimal(va_list types, char buffer[], int flags, int width, int precision, int size);
+
+int print_hexU(va_list types, char buffer[], int flags, int width, int precision, int size);
+
+int print_hex(va_list types, , char map_to[], char buffer[], int flags, char flag_ch, int width, int precision, int size);
+
+#endif/*MAIN_H*/
